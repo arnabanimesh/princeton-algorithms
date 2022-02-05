@@ -3,6 +3,8 @@
 
 # Except for .java files
 !/.gitignore
+!/LICENSE
+!/README.md
 !*.java
 
 # Include .java files even if they are in subdirectories
