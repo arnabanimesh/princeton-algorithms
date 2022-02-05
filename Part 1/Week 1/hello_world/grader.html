@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!-- saved from url=(1510)https://coursera-grid-grade.s3.amazonaws.com/output/gn6XTU7NQ_q-l01OzUP60g/htmlFeedback.html?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHYaCXVzLWVhc3QtMSJHMEUCIHezWcaat5iNrcZQTsxvuBANcvNJRh8acFUGUSFDlZZbAiEA2CnQ5HJ1%2BTka928lfW2VaSii8hIPgvluOcqOxB3XKBgqgwQIr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwyMDAzNzQ2NTQ5MTIiDMGZ8JWG4e0UgO5tBirXAx2a0U%2F3yNC1I%2B0XzaL7MLSjlvE3Kxz8xEeVS0TWvImmpYRTYA1eJY3iq5jAWzoOaaoEV7I2VIcgS7PGqpc6sCZ1T0OaJUkQO4Zv5Ytsk3bU3AHE9VuLCXEr4%2FvfpWKgbzmYoQREt42PQ9L80%2B7e2i9ryoxsMss9ylKjlXDqhB0DT2zXt4Y0iSG0SiCX%2BHtZ181GSPkARML%2B%2B9u1e%2BlHxDI%2BkJ6Ad3J7c5F9NYz3wJOBUK9B9U04fBv%2F81YnOEGXDeLPvSbMy3ioPb2MnV4mJgLWGm6bLDPv5LErPaH5aBK%2B43ePVlhwpqIftaqBuGeYVaJ8UKc32ebjubNBLi7S8FCOX1n9gLvSYptqZ634f0Z3Kz4RIgtyXLjkYwKXE%2FzOBHIlDQ7GO9K41pzsUWbmnkopdy6twJc%2BguUq6%2Fp4MWMbXkzt5uK2EUaZ%2BCDwWU9wCI8xWYFh%2BMHluUsYfl5f7lzk6Y6B1ncoBGYOxOW6fTwdvz%2FKWHX0g4AybVTkSfsyzJjV94C6s1Sd0AYpUqMJDJVrzmkKvBarabiapXpCZFEPRFphqfKXIjQSitY8xCi72uo3ckogzPK7jtp4ZqG6ztBHblgja4wOTJFHIyfXDNMHG0d44BL9GDDx1vuPBjqlAVJDdZU8866bG981uZJk6xKZ6AEn8O3TjhN9aBnzliiSOHvGNxIR6ZW0RqpurrywUL1xGgp7FjOG0cUGhvLPsyA5vsyIpXG%2BqyL4bLWXFP5DmjAex04CFQ4aKrWF27Yr2RxUvps%2BMAwiBaGP%2Fok1Pk%2BAF1csMYPpPGisS%2BsNij0VjHMCzNMVIpYKzKJvnIXWA2XUFejnavcOADHY7%2BKXTSuZdaVfPQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220205T222339Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIAS5J2CS7AFK6K7FNE%2F20220205%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b37f7220dc89dc5f3e1dc693afc46ceae0595edb17756405a16463564978176a -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Autograder Feedback</title>
+
+</head>
+
+<body>
+
+<p>
+<em>
+See the Assessment Guide for information on how to interpret this report.
+</em>
+<br><br>
+
+</p><h2>ASSESSMENT SUMMARY</h2>
+<pre>
+Compilation:  <font color="#009900">PASSED</font>
+API:          <font color="#009900">PASSED</font>
+
+SpotBugs:     <font color="#009900">PASSED</font>
+PMD:          <font color="#009900">PASSED</font>
+Checkstyle:   <font color="#009900">PASSED</font>
+
+Correctness:  <font color="#009900">13/13 tests passed</font>
+Memory:       <font color="#009900">No tests available for autograding.</font>
+Timing:       <font color="#009900">No tests available for autograding.</font>
+
+Aggregate score: 100.00%
+[ Compilation: 5%, API: 5%, Style: 0%, Correctness: 90% ]
+</pre>
+
+
+<br><br>
+
+<h2>ASSESSMENT DETAILS</h2>
+
+<pre>
+The following files were submitted:
+----------------------------------
+235 Jan 28 02:15 HelloGoodbye.java
+188 Jan 28 02:15 HelloWorld.java
+502 Jan 28 02:15 RandomWord.java
+
+
+********************************************************************************
+*  COMPILING                                                                    
+********************************************************************************
+
+
+% javac HelloWorld.java
+*-----------------------------------------------------------
+
+% javac HelloGoodbye.java
+*-----------------------------------------------------------
+
+% javac RandomWord.java
+*-----------------------------------------------------------
+
+
+================================================================
+
+
+Checking the APIs of your programs.
+*-----------------------------------------------------------
+HelloWorld:
+
+HelloGoodbye:
+
+RandomWord:
+
+================================================================
+
+
+********************************************************************************
+*  CHECKING STYLE AND COMMON BUG PATTERNS                                       
+********************************************************************************
+
+
+% spotbugs *.class
+*-----------------------------------------------------------
+
+
+================================================================
+
+
+% pmd .
+*-----------------------------------------------------------
+
+
+================================================================
+
+
+% checkstyle *.java
+*-----------------------------------------------------------
+
+% custom checkstyle checks for HelloWorld.java
+*-----------------------------------------------------------
+
+% custom checkstyle checks for HelloGoodbye.java
+*-----------------------------------------------------------
+
+% custom checkstyle checks for RandomWord.java
+*-----------------------------------------------------------
+
+
+================================================================
+
+
+********************************************************************************
+*  TESTING CORRECTNESS
+********************************************************************************
+
+Testing correctness of HelloWorld
+*-----------------------------------------------------------
+Running 2 total tests.
+
+Test 1: check output format
+  % java HelloWorld
+  Hello, World
+
+==&gt; passed
+
+Test 2: check correctness
+  * java HelloWorld
+==&gt; passed
+
+
+HelloWorld Total: 2/2 tests passed!
+
+
+================================================================
+Testing correctness of HelloGoodbye
+*-----------------------------------------------------------
+Running 6 total tests.
+
+Test 1: check output format
+  % java HelloGoodbye Kevin Bob
+  Hello Kevin and Bob.
+  Goodbye Bob and Kevin.
+
+  % java HelloGoodbye Alejandra Bahati
+  Hello Alejandra and Bahati.
+  Goodbye Bahati and Alejandra.
+
+==&gt; passed
+
+Test 2: check correctness using names from assignment specification
+  * java HelloGoodbye Kevin Bob
+  * java HelloGoodbye Alejandra Bahati
+==&gt; passed
+
+Test 3: check correctness using fixed names
+  * java HelloGoodbye Chandra Deshi
+  * java HelloGoodbye Ayşe María
+  * java HelloGoodbye Wayan Taiyeo
+  * java HelloGoodbye Ástfríður Bedřiška
+==&gt; passed
+
+Test 4: check correctness when two names are the same
+  * java HelloGoodbye Turing Turing
+  * java HelloGoodbye Lovelace Lovelace
+  * java HelloGoodbye Hopper Hopper
+  * java HelloGoodbye Knuth Knuth
+==&gt; passed
+
+Test 5: check correctness using random names
+  * java HelloGoodbye Ermellino Agnete
+  * java HelloGoodbye Doreen Amos
+  * java HelloGoodbye Herwin Onurcan
+  * java HelloGoodbye Vallis Vessa
+  * java HelloGoodbye Ennen Jonah
+==&gt; passed
+
+Test 6: test correctness using many random names
+  * 10 pairs of random names
+  * 100 pairs of random names
+  * 1000 pairs of random names
+  * 10000 pairs of random names
+==&gt; passed
+
+
+HelloGoodbye Total: 6/6 tests passed!
+
+
+================================================================
+Testing correctness of RandomWord
+*-----------------------------------------------------------
+Running 5 total tests.
+
+Test 1: check that programs prints exactly one word
+  % java-algs4 RandomWord  &lt; animals8.txt
+  ant
+
+  % java-algs4 RandomWord  &lt; animals8.txt
+  horse
+
+  % java-algs4 RandomWord  &lt; coin.txt
+  tails
+
+  % java-algs4 RandomWord  &lt; names.txt
+  Digna
+
+==&gt; passed
+
+Test 2: check that the word the program prints appears on standard input
+  * 10000 trials from coin.txt
+  * 10000 trials from animals8.txt
+  * 10000 trials from animals.txt
+  * 10000 trials from colors.txt
+  * 10000 trials from algorithms.txt
+  * 10000 trials from dream.txt
+==&gt; passed
+
+Test 3: check that program consumes all data from standard input
+  * coin.txt
+  * animals8.txt
+  * animals.txt
+  * colors.txt
+  * algorithms.txt
+  * names.txt
+  * dream.txt
+==&gt; passed
+
+Test 4: check that words printed are uniformly random
+  * 12000 trials from coin.txt
+  * 12000 trials from roshambo.txt
+  * 12000 trials from die.txt
+  * 12000 trials from animals8.txt
+  * 12000 trials from animals25.txt
+  * 12000 trials from algorithms.txt
+==&gt; passed
+
+Test 5: check that words printed are uniformly random
+        (with some words on standard input repeated)
+  * 36000 trials from biased-coin.txt
+  * 36000 trials from loaded-die.txt
+  * 36000 trials from two-dice.txt
+  * 36000 trials from tinyTale.txt
+==&gt; passed
+
+
+RandomWord Total: 5/5 tests passed!
+
+
+================================================================
+
+</pre>
+
+
+</body></html>

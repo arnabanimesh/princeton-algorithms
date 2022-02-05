@@ -1,11 +1,12 @@
 # Ignore everything
 *
 
-# Except for .java files
+# Except for some necessary files
 !/.gitignore
 !/LICENSE
 !/README.md
 !*.java
+!grader.html
 
 # Include .java files even if they are in subdirectories
 !*/
