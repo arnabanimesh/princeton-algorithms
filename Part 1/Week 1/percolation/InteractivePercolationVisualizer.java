@@ -28,7 +28,7 @@ public class InteractivePercolationVisualizer {
 
         StdDraw.enableDoubleBuffering();
         Percolation perc = new Percolation(n);
-        PercolationVisualizer.init(perc, n);
+        PercolationVisualizer.draw(perc, n);
         StdDraw.show();
 
         while (!StdDraw.isKeyPressed(27)) {

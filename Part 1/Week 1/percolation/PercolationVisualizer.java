@@ -26,22 +26,7 @@ import java.awt.Font;
 public class PercolationVisualizer {
 
     // delay in milliseconds (controls animation speed)
-    private static final int DELAY = 0;
-
-    // initialize all blocks to black
-    public static void init(Percolation perc, int n) {
-        StdDraw.clear();
-        StdDraw.setPenColor(StdDraw.BLACK);
-        StdDraw.setXscale(-0.05 * n, 1.05 * n);
-        StdDraw.setYscale(-0.05 * n, 1.05 * n); // leave a border to write text
-        StdDraw.filledSquare(n / 2.0, n / 2.0, n / 2.0);
-
-        // draw n-by-n grid
-        for (int row = 1; row <= n; row++)
-            for (int col = 1; col <= n; col++)
-                StdDraw.filledSquare(col - 0.5, n - row + 0.5, 0.45);
-
-    }
+    private static final int DELAY = 0; // set 0 for instantaneous updates
 
     // draw n-by-n percolation system
     public static void draw(Percolation perc, int n) {
@@ -82,7 +67,7 @@ public class PercolationVisualizer {
 
         // repeatedly read in sites to open and draw resulting system
         Percolation perc = new Percolation(n);
-        init(perc, n);
+        draw(perc, n);
         StdDraw.show();
         StdDraw.pause(DELAY);
         while (!in.isEmpty()) {
