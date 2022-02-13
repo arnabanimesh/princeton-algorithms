@@ -10,7 +10,3 @@
 
 # Include the necessary project files even if they are in subdirectories
 !*/
-
-# Exclude some non-project files
-InteractivePercolationVisualizer.java
-PercolationVisualizer.java
